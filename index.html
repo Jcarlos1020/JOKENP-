@@ -12,14 +12,16 @@
     <div class="principal">
         <h1>JokenPô</h1>
         <div class="botões">
-            <button id="pedra">&#x1F44A;</button>
-            <button id="papel">&#x270B;</button>
-            <button id="tesoura">&#x270C;</button>
+            <button id="pedra" onclick="playHumano('pedra')">&#x1F44A;</button>
+            <button id="papel" onclick="playHumano('papel')">&#x270B;</button>
+            <button id="tesoura" onclick="playHumano('tesoura')">&#x270C;</button>
         </div>
         <p class="resultado"></p>
-        <p class="minha-pontuação">Sua pontuação : <span>0</span></p>
-        <p class="pontuação-maquina">Pontuação da maquina : <span>0</span></p>
+        <p class="minha-pontuação">Sua pontuação : <span id="meu-ponto">0</span></p>
+        <p class="pontuação-maquina">Pontuação da maquina : <span id="maquina-ponto">0</span></p>
     </div>
 </body>
+
+<script src="./scripts.js"></script>
 
 </html>
