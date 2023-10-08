@@ -39,3 +39,4 @@ const jogandoJogo = (humano, maquina) => {
         result.innerHTML = "Você perdeu para maquina &#x1F622;"
     }
 }
+
